@@ -15,7 +15,7 @@ fim campos do formulário coletados para inserção no banco de dados */
 
 if(isset($_POST['submit']))
     {
-        // print_r('nome_aluno: ' . $_POST['nome_aluno']);
+         print_r('nome_aluno: ' . $_POST['nome_aluno']);
         // print_r('<br>');
 
         // print_r('Email: ' . $_POST['email']);
