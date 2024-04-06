@@ -15,7 +15,7 @@ fim campos do formulário coletados para inserção no banco de dados */
 
 if(isset($_POST['submit']))
     {
-         print_r('nome_aluno: ' . $_POST['nome_aluno']);
+        // print_r('nome_aluno: ' . $_POST['nome_aluno']);
         // print_r('<br>');
 
         // print_r('Email: ' . $_POST['email']);
@@ -65,8 +65,8 @@ if(isset($_POST['submit']))
     <!-- form -->
     <div class="w3-row">
         <div class="box">
-            <form action="form.php" method="POST">
-       <!-- <form action="<?php // echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST"> -->
+            <!--<form action="form.php" method="POST">-->
+            <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST">
                 <fieldset>
                     <!-- linha form -->
                     <div class="w3-row">
