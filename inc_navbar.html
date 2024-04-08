@@ -1,0 +1,35 @@
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<!--navbar normal-->
+<div class="navbar">
+        <div class="w3-bar w3-border w3-card-4 w3-black">
+            <a href="index.php" class="w3-bar-item w3-button w3-hover-blue w3-mobile w3-hide-small">Home</a>
+            <a href="#" class="w3-bar-item w3-button w3-hover-blue w3-mobile w3-hide-small">PROFESSORES</a>
+            <a href="#" class="w3-bar-item w3-button w3-hover-blue w3-mobile w3-hide-small">ALUNOS</a>
+            <a href="#" class="w3-bar-item w3-button w3-hover-blue w3-mobile w3-hide-small">CONTATO</a>
+            <a href="#" class="w3-bar-item w3-button w3-hover-blue w3-mobile w3-hide-small w3-right">LOGIN</a>
+            <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
+        </div>
+</div>
+<!--fim navbar normal-->
+
+<!--navbar mobile-->
+<div id="demo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium">
+    <a href="index.php" class="w3-bar-item w3-button w3-hover-blue w3-mobile">Home</a>
+    <a href="#" class="w3-bar-item w3-button w3-hover-blue w3-mobile">PROFESSORES</a>
+    <a href="#" class="w3-bar-item w3-button w3-hover-blue w3-mobile">ALUNOS</a>
+    <a href="#" class="w3-bar-item w3-button w3-hover-blue w3-mobile">CONTATO</a>
+    <a href="#" class="w3-bar-item w3-button w3-hover-blue w3-mobile w3-right">LOGIN</a>
+</div>
+<!--fim navbar mobile-->
+
+<script>
+    function myFunction() {
+      var x = document.getElementById("demo");
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else { 
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+    </script>
