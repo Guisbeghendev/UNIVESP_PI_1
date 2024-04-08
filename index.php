@@ -21,46 +21,38 @@
 	<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-vivid.css">
 	<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-food.css">
 	<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-camo.css">
-	
 </head>
-		
+
 <body>
+    <!-- corpo da pagina -->
+    <div class="w3-container">
+        <div class="w3-content" style="max-width:1800px;margin-top:5px">
 
-<!-- corpo da pagina -->
-<div class="w3-container">
-    <div class="w3-content" style="max-width:1800px;margin-top:5px">
+            <!--header-->
+            <section class="header w3-show">
+            <?php include 'inc_header.html';?>
+            </section>
+            <!--fim header-->
 
-        <!--header-->
-        <section class="header w3-show">
-        <?php include 'header.html';?>
-        </section>
-        <!--fim header-->
+            <!--navbar-->
+            <section class="navbar w3-show">
+            <?php include 'inc_navbar.html';?>
+            </section>
+            <!--fim navbar-->
 
-        <!--navbar-->
-        <section class="navbar w3-hide">
-        <?php include 'navbar.html';?>
-        </section>
-        <!--fim navbar-->
+            <!--main--><!--pagina inicial do sistema-pagina diferente das demais-->
+            <section class="main w3-show">
+                <?php include 'inc_main.html';?>
+            </section>
+            <!--fim main-->
 
-        <!--verifica se o usuario esta logado--
-        <section class="verifica_logado w3-hide">
-            <?php /* include 've_logado.php'; */ ?>
-        </section>
-        !--fim verifica se o usuario esta logado-->
+            <!--footer-->
+            <section class="footer w3-show">
+            <?php include 'inc_footer.html';?>
+            </section>
+            <!--fim footer-->
 
-        <!--main--><!--pagina inicial do sistema-pagina diferente das demais-->
-        <section class="main w3-show">
-        <?php include 'main.html';?>
-        </section>
-        <!--fim main-->
-
-        <!--footer-->
-        <section class="footer w3-show">
-        <?php include 'footer.html';?>
-        </section>
-        <!--fim footer-->
-
-    </div>
+        </div>
 </div>
 <!-- fim corpo da pagina -->
 
