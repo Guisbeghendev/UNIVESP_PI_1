@@ -44,7 +44,7 @@
             
             <div class="w3-row">
                 <!-- Conteúdo principal - main -->
-                <?php include "inc_quemsomos.php" ?>
+                <?php include "inc_cadastro.php" ?>
                 <!-- fim Conteúdo principal -->
             </div>
 
@@ -58,7 +58,6 @@
 
     </div>
     <!-- fim pagina geral -->
-
 
 
 <!--scripts-->
@@ -78,3 +77,4 @@
 
 </body>
 </html>
+

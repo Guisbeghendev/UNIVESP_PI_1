@@ -1,3 +1,5 @@
+<?php include 'processa_dashboard_tutor.php'; ?>
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -26,31 +28,31 @@
 
             <div class="w3-row">
                 <!--header-->
-                <?php include "inc_header.html" ?>
+                <?php include "inc_header.html"; ?>
                 <!--fim header-->
             </div>
 
             <div class="w3-row w3-black">
                 <!--bar alt_tema-->
-                <?php include "inc_alt_tema.html" ?>
+                <?php include "inc_alt_tema.html"; ?>
                 <!--fim bar alt_tema-->
             </div>
 
             <div class="w3-row">
                 <!--navbar--> 
-                <?php include "inc_navbar.html" ?>
+                <?php include "inc_navbar_tutor.html"; ?> <!-- Mudança aqui: incluir navbar de tutor -->
                 <!--fim navbar-->
             </div>
             
             <div class="w3-row">
                 <!-- Conteúdo principal - main -->
-                <?php include "inc_quemsomos.php" ?>
+                <?php include "main_tutor.php"; ?> <!-- Mudança aqui: incluir main de tutor -->
                 <!-- fim Conteúdo principal -->
             </div>
 
             <div class="w3-row">
                 <!-- footer -->
-                <?php include "inc_footer.php" ?>
+                <?php include "inc_footer.php"; ?>
                 <!-- fim footer -->
             </div>
         
@@ -59,22 +61,20 @@
     </div>
     <!-- fim pagina geral -->
 
-
-
-<!--scripts-->
+    <!--scripts-->
     <!-- menu navbar hamburger-->
-    <script><?php include "script_nav_hamburger.js" ?></script>
-    
+    <script><?php include "script_nav_hamburger.js"; ?></script>
 
     <!-- Adicione os links para os arquivos JavaScript do Bootstrap e jQuery -->
-    <script><?php include "links_script.html" ?></script>
-    
+    <script><?php include "links_script.html"; ?></script>
     
     <!--alterar tema-->
-    <script><?php include "tema_script.js" ?></script>
+    <script><?php include "tema_script.js"; ?></script>
     <!--fim alterar tema-->
     
-<!--fim scripts-->
+    <!--fim scripts-->
 
 </body>
 </html>
+
+

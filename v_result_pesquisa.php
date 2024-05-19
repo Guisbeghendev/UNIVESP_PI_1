@@ -44,7 +44,9 @@
             
             <div class="w3-row">
                 <!-- Conteúdo principal - main -->
-                <?php include "inc_quemsomos.php" ?>
+                
+                    <?php include "main_pesquisa.php" ?>
+
                 <!-- fim Conteúdo principal -->
             </div>
 

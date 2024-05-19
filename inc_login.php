@@ -1,20 +1,24 @@
-<!--login-->
-<div class="login">
-    <div class="w3-container-fluid">
-        <div class="w3-row">
-            <div class="w3-center">
-                <h2>Login de Aluno</h2>
-                <form method="post" action="_processar_login.php">
-                    <label for="email">Email:</label><br>
-                    <input type="email" id="email" name="email" required><br><br>
-                    
-                    <label for="senha">Senha:</label><br>
-                    <input type="password" id="senha" name="senha" required><br><br>
-                    
-                    <input type="submit" value="Login">
-                </form>
+<!-- Formulário de login -->
+<div class="w3-container entrar">
+    <div class="w3-container chavear">
+        <h2>Login</h2>
+        <form method="POST" action="processa_login.php">
+            <div>
+                <input type="radio" id="aluno" name="tipo_usuario" value="aluno" checked>
+                <label for="aluno">Aluno</label>
+                <input type="radio" id="tutor" name="tipo_usuario" value="tutor">
+                <label for="tutor">Tutor</label>
             </div>
-        </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" required>
+            </div>
+            <button type="submit" name="login">Login</button>
+        </form>
     </div>
 </div>
-<!--fim login-->
+<!-- Fim do formulário de login -->

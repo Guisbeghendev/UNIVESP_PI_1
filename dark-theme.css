@@ -1,0 +1,53 @@
+/* dark-theme.css */
+
+:root {
+    --background-color-bg: #000000; /* cor de fundo geral*/
+    --text-color-bg: #ffffff; /* cor do texto geral*/
+    --background-color-footer: #000000; /* cor de fundo foter*/
+    --text-color-footer: #ffffff; /* cor do texto footer*/
+    --background-color-naveg: #000000; /* cor de fundo navbar*/
+    --text-color-naveg: #ffffff; /* cor do texto navbar*/
+    --background-color-qsomos: #000000; /* cor de fundo quem somos*/
+    --text-color-qsomos: #ffffff; /* cor do texto quem somos*/
+    --background-color-chavear: #000000; /* cor de fundo chavear*/
+    --text-color-chavear: #ffffff; /* cor do texto chavear*/
+    --background-color-entrar: #000000; /* cor de fundo entrar*/
+
+    /* adicione outras variáveis conforme necessário */
+    
+}
+
+.backgeral {
+    background-color: var(--background-color-bg);
+    color: var(--text-color-bg);
+}
+
+.naveg{
+    background-color: var(--background-color-naveg);
+    color: var(--text-color-naveg);
+
+}
+
+.footer{
+    background-color: var(--background-color-footer);
+    color: var(--text-color-footer);
+
+}
+
+.qsomos{
+    background-color: var(--background-color-qsomos);
+    color: var(--text-color-qsomos);
+}
+
+.chavear{
+    background-color: var(--background-color-chavear);
+    color: var(--text-color-chavear);
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-bottom: 10%;
+    margin-right: 5%;
+} 
+
+.entrar{
+    background-color: var(--background-color-entrar);
+}

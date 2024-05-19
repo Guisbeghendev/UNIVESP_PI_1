@@ -44,7 +44,7 @@
             
             <div class="w3-row">
                 <!-- Conteúdo principal - main -->
-                <?php include "inc_quemsomos.php" ?>
+                <?php include "inc_chave.php" ?>
                 <!-- fim Conteúdo principal -->
             </div>
 
@@ -78,3 +78,4 @@
 
 </body>
 </html>
+
