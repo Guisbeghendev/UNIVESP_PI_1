@@ -6,8 +6,8 @@
             <a href="#" class="w3-bar-item w3-button w3-disabled">MENU >> </a><!--principal-->
             <a href="dashboard_aluno.php" class="w3-bar-item w3-button w3-hide-small w3-hover-blue">Perfil</a>
             <a href="logout.php" class="w3-bar-item w3-button w3-hide-small w3-hover-blue w3-right">Sair</a>
-                <!-- Botão de hamburguer para dispositivos móveis -->
-                <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
+            <!-- Botão de hamburguer para dispositivos móveis -->
+            <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
         </div>
         <!-- menu responsivo -->
         <div id="demo" class="w3-bar-block naveg w3-card-4 w3-hide w3-hide-large w3-hide-medium">
@@ -19,14 +19,14 @@
 <!--fim navbar-->
 
 <!--scripts-->
-    <!-- menu navbar hamburger-->
-    <script>
-        function myFunction() {
+<!-- menu navbar hamburger-->
+<script>
+    function myFunction() {
         var x = document.getElementById("demo");
         if (x.className.indexOf("w3-show") == -1) {
             x.className += " w3-show";
         } else { 
             x.className = x.className.replace(" w3-show", "");
         }
-        }
-    </script>
+    }
+</script>

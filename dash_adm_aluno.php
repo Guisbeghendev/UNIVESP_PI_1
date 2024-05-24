@@ -1,6 +1,6 @@
 <div class="w3-container administrativo">
 <div class="w3-row">
-        <?php include "inc_pesquisa.php" ?>
+        <?php include "main_pesquisa.php" ?>
     </div>
     <br>
     <div class="w3-row">

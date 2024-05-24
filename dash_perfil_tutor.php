@@ -79,9 +79,11 @@ try {
             if ($idiomas_result) {
                 echo '<strong>Idiomas:</strong> ' . count($idiomas_result) . '<br>';
                 echo implode(', ', $idiomas_result);
+                echo '<br><br>';
             } else {
                 // Se não houverem idiomas associados, exibir uma mensagem indicando isso
                 echo '<strong>Idiomas:</strong> Nenhum idioma cadastrado';
+                echo '<br><br>';
             }
             ?>
         </div>

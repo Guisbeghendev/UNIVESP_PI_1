@@ -16,11 +16,27 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <!-- Adicione outros links css se necessário -->
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-win8.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2017.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2018.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2019.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2020.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2021.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-highway.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-safety.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-signal.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-vivid.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-food.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-camo.css">
     
 </head>
 <body>
     <!-- pagina geral -->
     <div class="w3-container-fluid geral">
+
+        <!-- Modal msg ao login ser realizado com sucesso--> 
+        <?php include "inc_modal_cadok.php" ?>
+        <!-- fim Modal msg ao login ser realizado com sucesso-->
 
         <div class="w3-col">
 
@@ -59,23 +75,24 @@
     </div>
     <!-- fim pagina geral -->
 
-
-
 <!--scripts-->
     <!-- menu navbar hamburger-->
     <script><?php include "script_nav_hamburger.js" ?></script>
-    
 
+    <!-- msg login ok -->
     <!-- Adicione os links para os arquivos JavaScript do Bootstrap e jQuery -->
-    <script><?php include "links_script.html" ?></script>
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script><?php include "msg_login_ok.js" ?></script>
+    <!-- fim msg login ok -->
+
     
     <!--alterar tema-->
     <script><?php include "tema_script.js" ?></script>
     <!--fim alterar tema-->
-    
+
 <!--fim scripts-->
 
 </body>
 </html>
-

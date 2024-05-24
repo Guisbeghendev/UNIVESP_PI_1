@@ -76,8 +76,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["registrar"])) {
                 $stmt_idioma->execute();
             }
 
-            // Redireciona para a página de login do usuário
-            header("Location: v_login.php");
+            // Redireciona para a página de login do usuário com um parâmetro de sucesso
+            header("Location: v_login.php?cadastro=sucesso");
             exit();
         } else {
             echo "Erro ao cadastrar o usuário";
